@@ -9,7 +9,8 @@ def array_random_numbers():
         * b - Максимальное значение числа в массиве
     **Возвращает список из двух значений [a, b]**
     """
-    return [int(input('Введите значение a - ')), int(input('Введите значение b - '))]
+    return [int(input('Введите значение a(минимальное значение сгенерированного числа) - ')),
+            int(input('Введите значение b(максимальное значение сгенерированного числа) - '))]
 
 
 def random_array(low, high, size):
@@ -30,7 +31,7 @@ def str_array(arr):
     * Принимает на вход массив numpyArray
     """
     string_arr = str(arr)[1:-1].replace('[', '|')
-    string_arr = ' ' + string_arr.replace(']', '|')
+    string_arr = string_arr.replace(']', '|')
     return string_arr
 
 
