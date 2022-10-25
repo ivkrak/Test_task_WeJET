@@ -16,4 +16,4 @@
 •	Числа, которые попали в диагонали, можно либо не включать в расчет или включать в каждый треугольник, куда они попали. Это остается на усмотрение программиста.
 
 # Пример массива и отображение треугольников
-![alt text] (https://drive.google.com/file/d/1yH-oBnP6W1K_vooJ4fc1IoS2JrrTEhbp/view?usp=sharing)
+![] (https://drive.google.com/file/d/1yH-oBnP6W1K_vooJ4fc1IoS2JrrTEhbp/view?usp=sharing)
