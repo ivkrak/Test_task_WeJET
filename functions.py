@@ -43,7 +43,6 @@ def sum_of_first_triangle(arr):
     for j in range(int(shape / 2) if shape % 2 == 0 else int(shape / 2) + 1):
         for i in range(a, b):
             triangle_1.append(arr[j][i])
-            # print(arr[j][i])
         a += 1
         b -= 1
     return sum(triangle_1)
