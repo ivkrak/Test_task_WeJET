@@ -1,16 +1,21 @@
-import pandas as pd
+# import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 
-# n = int(input('Введите значение n - '))
-# a = int(input('Введите значение a - '))
-# b = int(input('Введите значение b - '))
+def array_random_numbers() -> list:
+    return [int(input('Введите значение a - ')), int(input('Введите значение b - '))]
 
-n = 5
-a = -60
-b = 60
 
+n = int(input('Введите значение n - '))
+a, b = array_random_numbers()
+while a >= b:
+    print('ERROR!\n\nПовторите ввод чисел a, b\n\nЧисло a не должно превышать число b!\n')
+    a, b = array_random_numbers()
+
+# n = 5
+# a = -60
+# b = 60
 
 arr = np.random.randint(low=min(a, b), high=max(a, b), size=(n, n))
 
