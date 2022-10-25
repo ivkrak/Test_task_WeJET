@@ -29,10 +29,9 @@ def print_array(arr):
 
     * Принимает на вход массив numpyArray
     """
-    print('\nМассив со случайными числами:\n')
-    for i in arr:
-        print(str(i)[1:-1])
-    print('\n')
+    string_arr = str(arr)[1:-1].replace('[', '|')
+    string_arr = ' ' + string_arr.replace(']', '|')
+    print(string_arr)
 
 
 def sum_of_numbers_in_a_triangle(arr):
