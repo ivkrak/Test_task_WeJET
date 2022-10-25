@@ -11,7 +11,7 @@ while a >= b:
 # a = -60
 # b = 60
 
-arr = random_array(low=min(a, b), high=max(a, b), size=n)
+arr = random_array(low=min(a, b), high=max(a, b), size=n )
 
 print_array(arr)
 
